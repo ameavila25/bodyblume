@@ -1,0 +1,178 @@
+*{
+	margin:0%; padding:0%;
+
+}
+
+body{
+	font-family: familia tipográfica: 'Gentium Book Plus', serif;
+familia tipográfica: 'Montserrat', sans-serif;
+
+}
+
+.bloque{
+ width: 100%;
+ height: auto;
+ overflow: hidden;
+ background-image: url(../Img/TRES.jpg);
+background-size: 100%;
+}
+
+
+
+
+.centrar{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+ border: 0px solid steelblue;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+
+
+.menu-principal{
+width: 45%;
+float:right;
+border: 0px lightsteelblue;
+background: rgba(0, 0, 0, 0.1);
+border-radius: 7px;
+
+}
+.menu-principal ul{}
+
+.menu-principal ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 15px 20px;
+}
+.menu-principal ul li a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+/*------izquierda y derecha-------*/
+.izquierda, .derecha{
+  width: 48%;
+  height: auto; overflow: hidden;
+  border: 0px solid steelblue;
+  display: inline-block;
+}
+.izquierda{float: left;}
+
+.subtitulo{
+  color: solid steelblue;
+
+}
+
+.titulo-principal{
+  color: #483D8B;
+  font-size: 70px;
+}
+
+.descripcion{
+  color:black;
+  font-weight: 400;
+}
+
+.boton{
+  padding: 18px 30px;
+  background:#4682B4 ;
+  color: whitesmoke;
+  border-radius:3px ;
+  border: 0px;
+}
+
+.derecha{float: right;}
+
+
+/*--------porque elegirnos----- */
+
+.elegir{
+  padding: 50px 0px;
+}
+
+.elegir .derecha{
+text-align: left;
+}
+
+
+.img-elige{
+width: 70%;
+}
+
+.elegir .derecha .texto-azul{
+color: #7B68EE;
+
+}
+.elegir .derecha h1{
+  color: #9966CC ;
+  font-size: 35px;
+}
+
+.elegir .derecha p{
+  color: #483D8B ;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.opciones{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.opcion{
+  width: 25%;
+  border: solid silver 1px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: solid steelblue;
+  border-radius: 8px;
+}
+
+.opcion:hover{
+color: steelblue;
+
+}
+
+.opcion .img-opciones{
+width: 40%;
+float: left;
+margin-right: 20px;
+
+}
+
+.texto-opciones{
+  margin-top: 20px;
+}
+
+.bloque-elegir{
+ width: 100%;
+ height: auto;
+ overflow: hidden;
+ background-color: whitesmoke;
+background-size: 100%;
+}
+
+.boton-contratar{
+width: 60%;
+float:right;
+border: 1px lightsteelblue;
+background: rgba(0, 0, 0, 0.1);
+border-radius: 7px;
+
+}
+
+.logo{
+position: relative;
+left: 500px;
+
+}
+
+
+
+
+
